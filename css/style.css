@@ -85,9 +85,15 @@ body{
     font-size: 1.5rem;
     
 }
-.left h4 , .left p{
-    color: black;
+.left h4 {
+    color: rgb(6, 0, 65);
+    
 }
+.left p{
+    color: rgb(6, 0, 65);
+    
+}
+
 .dropdown-menu{
     background: rgb(255, 181, 44);
 }
