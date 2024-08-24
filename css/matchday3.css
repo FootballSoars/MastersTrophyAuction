@@ -85,7 +85,7 @@ body{
     display: inline-block;
     min-height: 3em;
     color: #ffffff;
-    min-width: 40%;
+    min-width: 100%;
     text-align: center;
     font-size: 1.1rem;
     padding: 1rem;
@@ -94,7 +94,19 @@ body{
     cursor: wait;
     text-decoration: none;   
 }
-
+.placeholder-three {
+    display: inline-block;
+    min-height: 3em;
+    color: #ffffff;
+    min-width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 1rem;
+    background-image: linear-gradient(#140055,#3e2200);
+    vertical-align: middle;
+    cursor: wait;
+    text-decoration: none;   
+}
 .ned {
     color: #FF671F;
     font-style: normal;
@@ -110,8 +122,8 @@ body{
     font-style: normal;
     font-size: 1.5rem;
 }
-.por{
-    color: #5700ba;
+.cro{
+    color: #ff00f2;
     font-style: normal;
     font-size: 1.5rem;
 }
@@ -209,21 +221,12 @@ body{
 }
 .card-body h5{
     font-size: 1.3rem;
-    text-align: center;
 }
-.table{
-    --bs-table-bg: #fff0;
+table{
     border-collapse: collapse;
     border-spacing: 0;
     margin: 0 ;
-    border: 1px solid #000000;
-}
-.count{
-    margin: 7px 0;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-size: 18px;
+    border: 2px solid #000000;
 }
 th{
     text-align: center;
